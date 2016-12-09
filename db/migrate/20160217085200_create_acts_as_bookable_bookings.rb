@@ -8,6 +8,10 @@ class CreateActsAsBookableBookings < ActiveRecord::Migration
       t.column :time_start, :datetime
       t.column :time_end, :datetime
       t.column :time, :datetime
+      t.column :street, :string
+      t.column :zip, :string
+      t.column :email, :string
+      t.column :phone, :string
       t.datetime :created_at
     end
   end
